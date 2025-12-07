@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="listBooks" type="id">Listbooks</string>
+    <item name="borrowDate" type="id" />
+    <item name="spinnerBooks" type="id" />
+    <item name="categorySpinner" type="id" />
+    <item name="name" type="id" />
+    <item name="checkAgree" type="id" />
+    <item name="btnSubmitRegister" type="id" />
+    <item name="loginEmail" type="id" />
+    <item name="loginPassword" type="id" />
+    <item name="loginButton" type="id" />
+    <item name="gotoRegister" type="id" />
+    <item name="registerButton" type="id" />
+    <item name="borrowButton" type="id" />
+    <item name="bookSpinner" type="id" />
+    <item name="dateInput" type="id" />
+    <item name="borrowButton2" type="id" />
+    <item name="registerCard" type="id" />
+    <item name="titleText" type="id" />
+    <item name="btnProfile" type="id" />
+    <item name="btnViewHistory" type="id" />
+    <item name="btnReturnBooks" type="id" />
+</resources>

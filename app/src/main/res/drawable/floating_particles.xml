@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#FCE4EC"
+                android:centerColor="#F3E5F5"
+                android:endColor="#E8F5E8"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Floating particles -->
+    <item android:top="80dp" android:left="120dp">
+        <shape android:shape="oval">
+            <size android:width="8dp" android:height="8dp" />
+            <solid android:color="#40FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="200dp" android:right="160dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#30FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="320dp" android:left="200dp">
+        <shape android:shape="oval">
+            <size android:width="10dp" android:height="10dp" />
+            <solid android:color="#35FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="480dp" android:right="120dp">
+        <shape android:shape="oval">
+            <size android:width="7dp" android:height="7dp" />
+            <solid android:color="#25FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="600dp" android:left="80dp">
+        <shape android:shape="oval">
+            <size android:width="5dp" android:height="5dp" />
+            <solid android:color="#20FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:bottom="120dp" android:right="200dp">
+        <shape android:shape="oval">
+            <size android:width="9dp" android:height="9dp" />
+            <solid android:color="#45FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Geometric shapes for added visual interest -->
+    <item android:top="120dp" android:right="80dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <size android:width="20dp" android:height="20dp" />
+                <solid android:color="#10FFFFFF" />
+                <corners android:radius="2dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:bottom="200dp" android:left="160dp">
+        <shape android:shape="rectangle">
+            <size android:width="15dp" android:height="15dp" />
+            <solid android:color="#15FFFFFF" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient background - library colors -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:startColor="#2C1810"
+                android:centerColor="#5D4E37"
+                android:endColor="#8B7355"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Bookshelf lines -->
+    <item android:top="100dp">
+        <shape android:shape="rectangle">
+            <size android:height="3dp" />
+            <solid android:color="#3D2817" />
+        </shape>
+    </item>
+
+    <item android:top="200dp">
+        <shape android:shape="rectangle">
+            <size android:height="3dp" />
+            <solid android:color="#3D2817" />
+        </shape>
+    </item>
+
+    <item android:top="300dp">
+        <shape android:shape="rectangle">
+            <size android:height="3dp" />
+            <solid android:color="#3D2817" />
+        </shape>
+    </item>
+
+    <!-- Book spines on shelves -->
+    <!-- First shelf -->
+    <item android:top="110dp" android:left="20dp">
+        <shape android:shape="rectangle">
+            <size android:width="25dp" android:height="80dp" />
+            <solid android:color="#8B4513" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item android:top="110dp" android:left="50dp">
+        <shape android:shape="rectangle">
+            <size android:width="30dp" android:height="80dp" />
+            <solid android:color="#DC143C" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item android:top="110dp" android:left="85dp">
+        <shape android:shape="rectangle">
+            <size android:width="28dp" android:height="80dp" />
+            <solid android:color="#4169E1" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Second shelf -->
+    <item android:top="210dp" android:left="15dp">
+        <shape android:shape="rectangle">
+            <size android:width="32dp" android:height="80dp" />
+            <solid android:color="#228B22" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <item android:top="210dp" android:left="52dp">
+        <shape android:shape="rectangle">
+            <size android:width="26dp" android:height="80dp" />
+            <solid android:color="#FFD700" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Floating book pages effect -->
+    <item android:top="50dp" android:right="30dp">
+        <rotate android:fromDegrees="15">
+            <shape android:shape="rectangle">
+                <size android:width="60dp" android:height="80dp" />
+                <solid android:color="#20FFFFFF" />
+                <corners android:radius="4dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item android:bottom="100dp" android:left="40dp">
+        <rotate android:fromDegrees="-10">
+            <shape android:shape="rectangle">
+                <size android:width="50dp" android:height="70dp" />
+                <solid android:color="#15FFFFFF" />
+                <corners android:radius="3dp" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Modern library gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#263238"
+                android:centerColor="#37474F"
+                android:endColor="#455A64"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Modern bookshelf structure -->
+    <item android:left="0dp">
+        <shape android:shape="rectangle">
+            <size android:width="50dp" />
+            <solid android:color="#1a1a1a" />
+        </shape>
+    </item>
+
+    <!-- Shelves -->
+    <item android:top="120dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="4dp" />
+            <solid android:color="#424242" />
+        </shape>
+    </item>
+
+    <item android:top="240dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="4dp" />
+            <solid android:color="#424242" />
+        </shape>
+    </item>
+
+    <item android:top="360dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="4dp" />
+            <solid android:color="#424242" />
+        </shape>
+    </item>
+
+    <!-- Modern book spines -->
+    <item android:top="130dp" android:left="60dp">
+        <shape android:shape="rectangle">
+            <size android:width="20dp" android:height="100dp" />
+            <solid android:color="#2196F3" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="130dp" android:left="85dp">
+        <shape android:shape="rectangle">
+            <size android:width="20dp" android:height="100dp" />
+            <solid android:color="#4CAF50" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="130dp" android:left="110dp">
+        <shape android:shape="rectangle">
+            <size android:width="20dp" android:height="100dp" />
+            <solid android:color="#FF9800" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="130dp" android:left="135dp">
+        <shape android:shape="rectangle">
+            <size android:width="20dp" android:height="100dp" />
+            <solid android:color="#E91E63" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- Second shelf -->
+    <item android:top="250dp" android:left="55dp">
+        <shape android:shape="rectangle">
+            <size android:width="22dp" android:height="100dp" />
+            <solid android:color="#9C27B0" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="250dp" android:left="80dp">
+        <shape android:shape="rectangle">
+            <size android:width="22dp" android:height="100dp" />
+            <solid android:color="#00BCD4" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="250dp" android:left="105dp">
+        <shape android:shape="rectangle">
+            <size android:width="22dp" android:height="100dp" />
+            <solid android:color="#8BC34A" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- Digital elements -->
+    <item android:top="60dp" android:right="40dp">
+        <shape android:shape="rectangle">
+            <size android:width="60dp" android:height="40dp" />
+            <solid android:color="#1a1a1a" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <!-- Screen glow effect -->
+    <item android:top="65dp" android:right="45dp">
+        <shape android:shape="rectangle">
+            <size android:width="50dp" android:height="30dp" />
+            <solid android:color="#40FFFFFF" />
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Floating data particles -->
+    <item android:top="100dp" android:left="200dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="#80FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="150dp" android:right="150dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#60FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:bottom="120dp" android:left="180dp">
+        <shape android:shape="oval">
+            <size android:width="5dp" android:height="5dp" />
+            <solid android:color="#70FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Study pods -->
+    <item android:bottom="40dp" android:right="60dp">
+        <shape android:shape="oval">
+            <size android:width="80dp" android:height="60dp" />
+            <solid android:color="#2a2a2a" />
+        </shape>
+    </item>
+
+    <item android:bottom="50dp" android:right="70dp">
+        <shape android:shape="oval">
+            <size android:width="60dp" android:height="40dp" />
+            <solid android:color="#40FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

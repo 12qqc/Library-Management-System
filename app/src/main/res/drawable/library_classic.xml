@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Classic library background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:startColor="#1a1a1a"
+                android:centerColor="#4a4a4a"
+                android:endColor="#8B7355"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Library pillars/architecture -->
+    <item android:left="0dp">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" />
+            <solid android:color="#2a2a2a" />
+        </shape>
+    </item>
+
+    <item android:right="0dp">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" />
+            <solid android:color="#2a2a2a" />
+        </shape>
+    </item>
+
+    <!-- Ceiling arches -->
+    <item android:top="0dp">
+        <shape android:shape="rectangle">
+            <size android:height="60dp" />
+            <solid android:color="#1a1a1a" />
+        </shape>
+    </item>
+
+    <!-- Ornate ceiling details -->
+    <item android:top="20dp" android:left="100dp">
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <solid android:color="#DAA520" />
+        </shape>
+    </item>
+
+    <item android:top="20dp" android:right="100dp">
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <solid android:color="#DAA520" />
+        </shape>
+    </item>
+
+    <!-- Central chandelier -->
+    <item android:top="40dp" android:left="150dp">
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="20dp" />
+            <solid android:color="#DAA520" />
+        </shape>
+    </item>
+
+    <!-- Chandelier crystals -->
+    <item android:top="35dp" android:left="160dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="35dp" android:left="180dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="35dp" android:left="200dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="35dp" android:left="220dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Ancient book stacks -->
+    <item android:bottom="80dp" android:left="80dp">
+        <shape android:shape="rectangle">
+            <size android:width="25dp" android:height="120dp" />
+            <solid android:color="#8B4513" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:bottom="80dp" android:left="110dp">
+        <shape android:shape="rectangle">
+            <size android:width="25dp" android:height="140dp" />
+            <solid android:color="#654321" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item android:bottom="80dp" android:left="140dp">
+        <shape android:shape="rectangle">
+            <size android:width="25dp" android:height="100dp" />
+            <solid android:color="#A0522D" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <!-- Reading desk -->
+    <item android:bottom="20dp" android:left="100dp">
+        <shape android:shape="rectangle">
+            <size android:width="200dp" android:height="15dp" />
+            <solid android:color="#8B4513" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+    <!-- Floating knowledge particles -->
+    <item android:top="120dp" android:left="50dp">
+        <shape android:shape="oval">
+            <size android:width="8dp" android:height="8dp" />
+            <solid android:color="#40FFD700" />
+        </shape>
+    </item>
+
+    <item android:top="180dp" android:right="70dp">
+        <shape android:shape="oval">
+            <size android:width="6dp" android:height="6dp" />
+            <solid android:color="#30FFD700" />
+        </shape>
+    </item>
+
+    <item android:bottom="150dp" android:left="120dp">
+        <shape android:shape="oval">
+            <size android:width="10dp" android:height="10dp" />
+            <solid android:color="#50FFD700" />
+        </shape>
+    </item>
+</layer-list>

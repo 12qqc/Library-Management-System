@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.library_management">
+
+    <application
+        android:allowBackup="true"
+        android:label="Library Management"
+        android:theme="@style/Theme.Library_Management"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginActivity" android:exported="true" />
+        <activity android:name=".RegisterActivity" android:exported="true" />
+        <activity android:name=".HomeActivity" android:exported="true" />
+        <activity android:name=".AddBookActivity" android:exported="true" />
+        <activity android:name=".BorrowBookActivity" android:exported="true" />
+        <activity android:name=".ViewBooksActivity" android:exported="true" />
+        <activity android:name=".ReturnBooksActivity" android:exported="true" />
+        <activity android:name=".BorrowHistoryActivity" android:exported="true" />
+
+    </application>
+
+</manifest>

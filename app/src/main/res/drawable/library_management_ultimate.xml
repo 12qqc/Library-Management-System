@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Ultimate library management gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="225"
+                android:startColor="#0F1419"
+                android:centerColor="#1A2332"
+                android:endColor="#2D3748"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Digital library network grid -->
+    <item android:top="50dp">
+        <shape android:shape="rectangle">
+            <size android:height="1dp" />
+            <solid android:color="#30FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="150dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="1dp" />
+            <solid android:color="#25FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="250dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="1dp" />
+            <solid android:color="#20FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="350dp">
+        <shape android:shape="rectangle">
+            <size android:width="400dp" android:height="1dp" />
+            <solid android:color="#15FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Vertical grid lines -->
+    <item android:left="80dp">
+        <shape android:shape="rectangle">
+            <size android:width="1dp" />
+            <solid android:color="#20FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:left="160dp">
+        <shape android:shape="rectangle">
+            <size android:width="1dp" />
+            <solid android:color="#15FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:left="240dp">
+        <shape android:shape="rectangle">
+            <size android:width="1dp" />
+            <solid android:color="#20FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Central management hub -->
+    <item android:left="100dp" android:top="200dp">
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#15FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Management system nodes -->
+    <item android:top="120dp" android:left="80dp">
+        <shape android:shape="oval">
+            <size android:width="25dp" android:height="25dp" />
+            <solid android:color="#4FC3F7" />
+        </shape>
+    </item>
+
+    <item android:top="80dp" android:right="100dp">
+        <shape android:shape="oval">
+            <size android:width="20dp" android:height="20dp" />
+            <solid android:color="#81C784" />
+        </shape>
+    </item>
+
+    <item android:bottom="120dp" android:left="100dp">
+        <shape android:shape="oval">
+            <size android:width="22dp" android:height="22dp" />
+            <solid android:color="#FFB74D" />
+        </shape>
+    </item>
+
+    <item android:bottom="80dp" android:right="80dp">
+        <shape android:shape="oval">
+            <size android:width="18dp" android:height="18dp" />
+            <solid android:color="#F48FB1" />
+        </shape>
+    </item>
+
+    <!-- Data flow connections -->
+    <item android:top="130dp" android:left="100dp">
+        <shape android:shape="rectangle">
+            <size android:width="50dp" android:height="2dp" />
+            <solid android:color="#60FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:top="100dp" android:left="160dp">
+        <shape android:shape="rectangle">
+            <size android:width="2dp" android:height="30dp" />
+            <solid android:color="#60FFFFFF" />
+        </shape>
+    </item>
+
+    <item android:bottom="130dp" android:left="120dp">
+        <shape android:shape="rectangle">
+            <size android:width="40dp" android:height="2dp" />
+            <solid android:color="#60FFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Digital books floating -->
+    <item android:top="60dp" android:left="40dp">
+        <shape android:shape="rectangle">
+            <size android:width="15dp" android:height="20dp" />
+            <solid android:color="#E8F5E8" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:top="200dp" android:right="50dp">
+        <shape android:shape="rectangle">
+            <size android:width="12dp" android:height="18dp" />
+            <solid android:color="#FFF3E0" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <item android:bottom="100dp" android:left="60dp">
+        <shape android:shape="rectangle">
+            <size android:width="18dp" android:height="24dp" />
+            <solid android:color="#FCE4EC" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+
+    <!-- User avatars in system -->
+    <item android:top="90dp" android:left="180dp">
+        <shape android:shape="oval">
+            <size android:width="12dp" android:height="12dp" />
+            <solid android:color="#90CAF9" />
+        </shape>
+    </item>
+
+    <item android:bottom="90dp" android:right="60dp">
+        <shape android:shape="oval">
+            <size android:width="10dp" android:height="10dp" />
+            <solid android:color="#A5D6A7" />
+        </shape>
+    </item>
+
+    <!-- Central intelligence core -->
+    <item android:left="170dp" android:top="270dp">
+        <shape android:shape="oval">
+            <size android:width="60dp" android:height="60dp" />
+            <solid android:color="#FFD700" />
+        </shape>
+    </item>
+
+    <!-- Core glow effect -->
+    <item android:left="160dp" android:top="260dp">
+        <shape android:shape="oval">
+            <size android:width="80dp" android:height="80dp" />
+            <solid android:color="#20FFD700" />
+        </shape>
+    </item>
+
+    <!-- Management particles -->
+    <item android:top="30dp" android:left="120dp">
+        <shape android:shape="oval">
+            <size android:width="4dp" android:height="4dp" />
+            <solid android:color="#FFD700" />
+        </shape>
+    </item>
+
+    <item android:top="250dp" android:right="30dp">
+        <shape android:shape="oval">
+            <size android:width="3dp" android:height="3dp" />
+            <solid android:color="#FFD700" />
+        </shape>
+    </item>
+
+    <item android:bottom="40dp" android:left="140dp">
+        <shape android:shape="oval">
+            <size android:width="5dp" android:height="5dp" />
+            <solid android:color="#FFD700" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Book Manager</string>
+
+    <!-- Book Fields -->
+    <string name="book_title">Book Title</string>
+    <string name="author">Author</string>
+    <string name="category">Category</string>
+    <string name="save_book">Save Book</string>
+    <string name="book_saved">Book Saved Successfully!</string>
+
+    <!-- Registration Fields -->
+    <string name="title_register">New User Registration</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="i_agree_to_the_terms">I agree to the terms</string>
+    <string name="register">Register</string>
+
+    <!-- Spinner list -->
+    <string-array name="categories">
+        <item>Fiction</item>
+        <item>Science</item>
+        <item>Technology</item>
+        <item>History</item>
+        <item>Business</item>
+    </string-array>
+
+    <!-- Missing Strings (Added Now) -->
+    <string name="add_book">Add Book</string>
+    <string name="view_books">View Books</string>
+    <string name="borrow_book">Borrow Book</string>
+    <string name="borrow_date_e_g_2025_01_01">Borrow Date (e.g., 2025-01-01)</string>
+    <string name="hint_search_books" />
+    <string name="title_library_books" />
+    <string name="back_to_home">Back to Home</string>
+</resources>
